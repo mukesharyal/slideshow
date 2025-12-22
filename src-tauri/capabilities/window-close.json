@@ -1,0 +1,9 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "window-close",
+  "description": "Add window close capability",
+  "windows": ["main", "slide_viewer"],
+  "permissions": [
+    "core:window:allow-close"
+  ]
+}
